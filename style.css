@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 40px auto;
+    background-color: #a1b301;
+    padding: 10px;
+}
+
+#qr-input {
+    width: 97%;
+    height: 40px;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+#qr-generate {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+}
+

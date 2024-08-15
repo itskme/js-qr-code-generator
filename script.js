@@ -8,4 +8,18 @@ qrGenerate.addEventListener('click', () => {
         alert('Please enter text to generate QR code');
         return;
     }
+
+    const qrCodeElement = document.createElement('div');
+    qrCodeElement.id = 'qr-code-element';
+    qrCode.innerHTML = '';
+    qrCode.appendChild(qrCodeElement);
+
+    new QRCode(qrCodeElement, {
+        text: qrText,
+        width: 200,
+        height: 200,
+        colorDark: '#000',
+        colorLight: '#fff',
+        correctLevel: QRCode.CorrectLevel.H
+    });
 });
