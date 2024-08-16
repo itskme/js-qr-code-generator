@@ -19,7 +19,7 @@ qrGenerate.addEventListener('click', () => {
         width: 200,
         height: 200,
         colorDark: '#000',
-        colorLight: '#fff',
+        colorLight: '#a1b301',
         correctLevel: QRCode.CorrectLevel.H
     });
 });
